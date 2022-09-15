@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: sans-serif;
+}
+header {
+  position: fixed;
+  bottom: 0px;
+  width: 50%;
+  margin: 0px 25%;
+  z-index: 999;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: #16213E;
+  color: #8758FF;
+  border-radius: 5px;
+}
+.logo{
+  font-size: 1.8em;
+  color:#533483;
+}
+span{
+  color: #E94560;
+}
+header nav ul li{
+  display: inline;
+}
+header nav ul li a{
+  text-decoration: none;
+  padding: 9px;
+  font-size: 1.em;
+  color: #F2F2F2;
+}
+header nav ul li a:hover{
+  color: #E94560;
+}
+section{
+  padding: 170px 160px;
+}
+p{
+  font-size: 2em;
+  text-align: center;
+}
+ul {
+  list-style-type: "📜";
+  list-style-position: inside;
+  line-height: 50px;
+  font-size: 1.2em;
+  text-align: center;
+}
+.main{
+
+}
+.myimg{
+  width: 300px;
+  position:absolute;
+  left:70%;
+  top:90px;
+}
+.dl{
+  list-style-type: "✨";
+  list-style-position: inside;
+  line-height: 30px;
+  font-size: 1.2em;
+  text-align: center;
+}
+.headline1{
+  color:#533483;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 2.5em;
+}
+.headline2{
+  color:#533483;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 2.5em;
+}
+.headline3{
+  color:#533483;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 2.5em;
+}
+
+#myname{
+  color: #E94560;
+  font-size: 8em;
+}
+#myeducation{
+  text-align: center;
+  padding: 20px 0px;
+  color: #533483;
+  font-size: 3em;
+}
